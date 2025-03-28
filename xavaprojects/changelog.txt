@@ -1,6 +1,14 @@
 Change Log for XavaProjects
 ===========================
 
+XavaProjects 2025.03 (2025-3-26)
+--------------------------------
+- OpenXava upgraded to OpenXava 7.5.
+
+XavaProjects 2025.01 (2025-1-13)
+--------------------------------
+- OpenXava upgraded to OpenXava 7.4.5.
+
 XavaProjects 2024.12 (2024-12-10)
 ---------------------------------
 - Saving an issue from MyCalendar module returns to the calendar view (the list).
