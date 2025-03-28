@@ -60,7 +60,7 @@
 	      maxTotal="20" maxIdle="5" maxWaitMillis="10000"
 	      username="xavaprojects" password="x@v4pr0j3cts"
 	      driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
-	      url="jdbc:sqlserver://raspberrypi:1433;databaseName=xavaprojects"/>
+	      url="jdbc:sqlserver://raspberrypi:1433;databaseName=xavaprojects;encrypt=true;trustServerCertificate=true"/>
 	
 	<!-- Informix
 	<Resource name="jdbc/xavaprojectsDS" auth="Container" type="javax.sql.DataSource"
