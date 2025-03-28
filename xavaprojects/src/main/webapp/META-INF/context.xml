@@ -24,13 +24,13 @@
 	      url="jdbc:hsqldb:hsql://localhost:1666"/>
 	-->      
 	      
-	<!-- MySQL -->       
+	<!-- MySQL        
     <Resource name="jdbc/xavaprojectsDS" auth="Container" type="javax.sql.DataSource"
 	      maxTotal="20" maxIdle="5" maxWaitMillis="10000"
 	      username="root" password="openxava" 
 	      driverClassName="com.mysql.cj.jdbc.Driver"
-	      url="jdbc:mysql://localhost:3306?serverTimezone=GMT%2B2"/>
-	
+	      url="jdbc:mysql://localhost:3306?serverTimezone=GMT%2B2"/>	      
+	-->
 	<!-- PostgreSQL 
 	<Resource name="jdbc/xavaprojectsDS" auth="Container" type="javax.sql.DataSource"
 	      maxTotal="20" maxIdle="5" maxWaitMillis="10000"
@@ -55,13 +55,12 @@
 	      url="jdbc:as400:localhost/xavaprojectslib"/>
 	-->
 	
-	<!-- Microsoft SQL Server
+	<!-- Microsoft SQL Server -->
 	<Resource name="jdbc/xavaprojectsDS" auth="Container" type="javax.sql.DataSource"
 	      maxTotal="20" maxIdle="5" maxWaitMillis="10000"
-	      username="user" password=""
+	      username="xavaprojects" password="x@v4pr0j3cts"
 	      driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
-	      url="jdbc:sqlserver://localhost:1433;databaseName=xavaprojectsdb"/>
-	-->
+	      url="jdbc:sqlserver://raspberrypi:1433;databaseName=xavaprojects"/>
 	
 	<!-- Informix
 	<Resource name="jdbc/xavaprojectsDS" auth="Container" type="javax.sql.DataSource"
